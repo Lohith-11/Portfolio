@@ -2,7 +2,7 @@ import { useInView } from '../hooks/useInView';
 import { ExternalLink, Github as GitHub } from 'lucide-react';
 
 import gameverse from '../assests/GameVerse.png';
-import echonest from '../assests/EchoNest.png';
+import echonest from '../assests/Echonest.png';
 
 const projects = [
   {
