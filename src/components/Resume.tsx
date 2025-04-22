@@ -2,7 +2,7 @@ import React from 'react';
 import { useInView } from '../hooks/useInView';
 
 const Resume: React.FC = () => {
-  const { ref, inView } = useInView({ threshold: 0.1, triggerOnce: true });
+  const { ref } = useInView({ threshold: 0.1, triggerOnce: true });
   return (
     <section id="resume" className="flex flex-col items-center mt-10 px-4" ref={ref}>
       <h2 className="text-3xl font-semibold mb-6 text-center">My Resume</h2>
