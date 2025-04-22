@@ -1,6 +1,7 @@
 import React from 'react';
 import { useInView } from '../hooks/useInView';
-import resume from '../assests/resume.jpg'
+import resume from '../assests/resume.jpg';
+import resumedownload from '../assests/resume.pdf';
 
 const Resume: React.FC = () => {
   const { ref } = useInView({ threshold: 0.1, triggerOnce: true });
@@ -17,7 +18,7 @@ const Resume: React.FC = () => {
 
       {/* Download Button */}
       <a
-        href="/resume.pdf"
+        href={resumedownload}
         download
         className="mt-6 inline-block bg-blue-600 text-white px-6 py-2 rounded-md hover:bg-blue-700 transition duration-300"
       >
