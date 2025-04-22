@@ -9,7 +9,7 @@ const Resume: React.FC = () => {
 
       {/* Resume Image */}
       <img
-        src="/Resume.jpg"
+        src="/resume.jpg"
         alt="Resume"
         className="w-full max-w-4xl rounded-lg shadow-lg border border-gray-300"
       />
