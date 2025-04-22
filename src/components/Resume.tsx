@@ -1,5 +1,6 @@
 import React from 'react';
 import { useInView } from '../hooks/useInView';
+import resume from '../assests/resume.jpg'
 
 const Resume: React.FC = () => {
   const { ref } = useInView({ threshold: 0.1, triggerOnce: true });
@@ -9,7 +10,7 @@ const Resume: React.FC = () => {
 
       {/* Resume Image */}
       <img
-        src="/Resume.jpg"
+        src={resume}
         alt="Resume"
         className="w-full max-w-4xl rounded-lg shadow-lg border border-gray-300"
       />
