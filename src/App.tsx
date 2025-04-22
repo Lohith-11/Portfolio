@@ -9,6 +9,7 @@ import Education from './components/Education';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 import ThemeToggle from './components/ThemeToggle';
+import Resume from './components/Resume';
 
 function App() {
   const [activeSection, setActiveSection] = useState('home');
@@ -66,6 +67,7 @@ function App() {
         <Skills />
         <Education />
         <Contact />
+        <Resume/>
       </main>
       <Footer />
     </div>

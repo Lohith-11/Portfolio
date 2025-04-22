@@ -21,6 +21,7 @@ const Navbar = ({ activeSection }: NavbarProps) => {
     { name: 'Skills', href: '#skills' },
     { name: 'Education', href: '#education' },
     { name: 'Contact', href: '#contact' },
+    { name: 'Resume', href: '#resume' },
   ];
 
   useEffect(() => {
@@ -67,14 +68,14 @@ const Navbar = ({ activeSection }: NavbarProps) => {
                   {link.name}
                 </a>
               ))}
-              <a
+              {/* <a
                 href="/resume.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="ml-4 px-4 py-2 border border-[#64ffda] text-[#64ffda] rounded hover:bg-[#64ffda]/10 transition-colors duration-300"
               >
                 Resume
-              </a>
+              </a> */}
             </div>
           </div>
           
@@ -108,7 +109,7 @@ const Navbar = ({ activeSection }: NavbarProps) => {
               {link.name}
             </a>
           ))}
-          <a
+          {/* <a
             href="/resume.pdf"
             target="_blank"
             rel="noopener noreferrer"
@@ -116,7 +117,7 @@ const Navbar = ({ activeSection }: NavbarProps) => {
             className="block px-3 py-2 text-base font-medium text-[#64ffda] hover:text-[#64ffda] border border-[#64ffda] rounded mt-4 text-center"
           >
             Resume
-          </a>
+          </a> */}
         </div>
       </div>
     </header>
