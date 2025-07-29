@@ -7,7 +7,7 @@ const education = [
     degree: 'Bachelor of Technology in Computer Science and Engineering',
     period: 'Since Aug 2022',
     location: 'Jalandhar, Punjab',
-    grade: 'CGPA: 7.6'
+    grade: 'CGPA: 7.77'
   },
   {
     school: 'Sri Chaitanya Junior Kalasala',
